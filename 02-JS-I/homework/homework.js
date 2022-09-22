@@ -191,6 +191,8 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   return nombre + ' ' + apellido;
+
+  
 }
 
 function obtenerSaludo(nombre) {
@@ -226,7 +228,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-    return (euro * 1,2);
+    return (euro * 1.2);
 }
 
 
@@ -237,10 +239,9 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra === 'a' || letra === 'A' || letra === 'e' || letra === 'E' || letra === 'i' || letra === 'I' || letra === 'o' || letra === 'O' || letra === 'u' || letra === 'U'){
-    return 'Es vocal';
-    return 'Dato incorrecto';
+    return 'Es vocal'; 
+  } return 'Dato incorrecto';
   }
-}
 
 
 
