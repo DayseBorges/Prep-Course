@@ -216,7 +216,10 @@ function mayorACien(array) {
 
 
 function breakStatement(numero) {
-  //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
+  //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 vece
+  
+  
+  
   //Guardar cada nuevo valor en un array. 
   //Devolver el array
   //Si en algún momento el valor de la suma y la cantidad de iteraciones coinciden, debe interrumpirse la ejecución y 
